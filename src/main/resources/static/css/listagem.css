@@ -1,0 +1,42 @@
+.buscar {
+    display: flex;
+    border: none;
+    gap: 6px;
+    align-items: center;
+    padding: 8px 25px;
+    border-radius: 5px;
+    background-color: blue;
+    color: #fff;}
+
+
+    svg{
+        width: 15px;
+    }
+
+.container-campos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & form {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    
+    
+        & input {
+            border: 1px solid rgba(0,0,0,0.1);
+            border-radius: 5px;
+            width: 500px;
+            height: 40px;
+        }
+    
+    }
+
+    & a{
+        text-decoration: none;
+        background-color: green;
+    }
+}
+
+

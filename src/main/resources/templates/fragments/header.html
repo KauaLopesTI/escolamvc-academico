@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<body>
+
+    <div th:replace="fragments/config :: config"></div>
+    <header th:fragment="cabecalho" class="d-flex d-flex-1 flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <img th:src="@{/img/senai-logo.png}" alt="Logo Senai-SP" width="200" />
+            <span class="fs-4" style="margin-left: 10px;"> CRUD TECDEV</span>
+        </a>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="/aluno/" class="nav-link">Alunos</a></li>
+            <li class="nav-item"><a href="/professor/" class="nav-link">Professores</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Turma</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Formações</a></li>
+        </ul>
+    </header>
+</header>
+</body>
+</html>
